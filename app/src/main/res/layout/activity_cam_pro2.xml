@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textureView"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/setDeformityrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="目测畸形率"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/Deformityrate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:max="100"
+        style="@style/progressBarHorizontal_arabia"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_above="@+id/op">
+            <SeekBar
+                android:id="@+id/seekbar_zoom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:max="60"
+                android:thumbOffset="0dp" />
+            <!--android:progressDrawable="@drawable/seekbar_style"-->
+            <!--android:thumb="@drawable/ic_launcher"-->
+            <!--android:thumbOffset="0dp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/op"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="检测"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SProgress">
+        //进度开始颜色
+        <attr name="progressColor" format="color"/>
+        //进度结束颜色
+        <attr name="progressendcolor" format="color"/>
+        //背景色
+        <attr name="backColor" format="color"/>
+        //文字颜色
+        <attr name="textColor" format="color"/>
+        //文字大小
+        <attr name="textsize" format="dimension"/>
+        //最小进度
+        <attr name="minProgress" format="float"/>
+        //起始进度
+        <attr name="startprogress" format="float"/>
+    </declare-styleable>
+
+</resources>

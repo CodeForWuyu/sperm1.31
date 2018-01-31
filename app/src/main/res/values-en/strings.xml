@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SPERM DETECTION</string>
+    <string name="start">Start detection</string>
+    <string name="result">Detection Result</string>
+    <string name="energyRate">Vigor rate</string>
+    <string name="cancle">Cancle</string>
+    <string name="history">History</string>
+    <string name="setup">Set up</string>
+    <string name="startdetect">Detect</string>
+    <string name="density">Density: (100 million per milliliter)</string>
+    <string name="save">Preservation</string>
+    <string name="toaststart">Start Detection!</string>
+    <string name="company">company</string>
+    <string name="phone">phone</string>
+    <string name="email">E-mail</string>
+    <string name="version">version</string>
+    <string name="version_name">Test version</string>
+    <string name="defomity">Defomity Rate</string>
+    <string name="defomityRate">Defomity Rate</string>
+</resources>

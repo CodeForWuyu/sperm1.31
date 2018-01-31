@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">精子分析</string>
+    <string name="start">開始檢測</string>
+    <string name="history">歷史</string>
+    <string name="setup">設置</string>
+    <string name="startdetect">檢測</string>
+    <string name="result">檢測結果</string>
+    <string name="density">密度：（億個每毫升）</string>
+    <string name="energyRate">活力率</string>
+    <string name="save">保存</string>
+    <string name="cancle">取消</string>
+    <string name="toaststart">開始檢測!</string>
+    <string name="company">公司信息</string>
+    <string name="phone">聯系電話</string>
+    <string name="email">電子郵箱</string>
+    <string name="version">版本</string>
+    <string name="company_name">四川翊盛芯科信息技術有限公司</string>
+    <string name="version_name">測試版</string>
+    <string name="defomity">目測畸形率</string>
+    <string name="defomityRate">畸形率</string>
+</resources>
